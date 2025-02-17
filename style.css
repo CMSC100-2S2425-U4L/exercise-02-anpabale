@@ -1,0 +1,375 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body content-area {
+	text-align: center;
+}
+
+.wrapper {
+	width: 1180px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+
+
+}
+.logo {
+	width: 40%;
+	float: left;
+	line-height: 100px;
+	cursor:pointer;
+}
+
+
+.logo img{
+	padding: 5px;
+	height:80px;
+	width: 75px;
+}
+
+.python {
+  margin-left: 10px;
+  height: 35px;
+  width: 30px;
+  border-radius: 70%;
+}
+
+
+
+p.about {
+	text-align: justify; 
+	width: 80%; 
+	margin: 0 auto; 
+  font-family: Roboto;
+  }
+
+
+  p.skills {
+    text-align: center; 
+    width: 80%; 
+    margin: 0 auto; 
+    font-family: Roboto;
+    }
+  
+
+.pfp{
+  width:200px;
+  height:175px;
+  display:block;
+  margin: 0 auto;
+  border-radius: 30%;
+  border:#4e210c 5px solid;
+}
+
+
+.logo a {
+	text-decoration: none;
+	font-size: 50px;
+	font-family:'Jurassic Park', sans-serif;
+	color: #fff;
+	letter-spacing: 5px;
+	margin-left:0px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+
+}
+nav a {
+	text-decoration: none;
+	padding: 3px 10px;
+	border-radius: 20px;
+	font-family: Lucida Sans;
+	letter-spacing: 0.12em;
+	font-size: 15px;
+	transition: 0.5s;
+	margin: 0 10px;
+	color: #fff;
+	text-transform:uppercase ;
+}
+
+nav a:hover {
+	color:#fff;
+	background:#ffbf00;
+}
+
+
+
+.banner-area {
+	width: 100%;
+	height: 510px;
+	position: fixed;
+	top: 100px;
+	background-image:url(banner.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.content-area {
+	width: 100%;
+	position: relative;
+	min-width: 900px;
+	top: 450px;
+	background: url(sand.jpg);
+	background-repeat: repeat-y;
+	background-size: auto 100%; /* Ensure image scales to fit the height */
+	background-position: center center;
+	background-attachment: scroll; /* or 'fixed' if you want it to be fixed as you scroll */
+	padding-bottom: 590px;
+}
+
+.content-area2 {
+	width: 100%;
+	position: relative;
+	min-width: 900px;
+	top: 450px;
+	background: url(sand.jpg);
+	background-repeat: repeat-y;
+	background-size: auto 100%; /* Ensure image scales to fit the height */
+	background-position: center center;
+	background-attachment: scroll; /* or 'fixed' */
+	height: 3000px;
+}
+
+
+.content-area2 h2 {
+	font-family:'Jurassic Park', sans-serif ;
+	letter-spacing: 6px;
+	padding-top: 40px;
+	font-size: 90px;
+	margin: 0;
+	text-align: center;
+	color: saddlebrown	;
+}
+
+
+
+
+.content-area h2 { /* For Portfolio text above form*/
+	font-family:'Jurassic Park', sans-serif ;
+	letter-spacing: 4px;
+	padding-top: 40px;
+	font-size: 90px;
+	margin: 0;
+	text-align: center;
+	color: #e33324;
+}
+
+
+
+
+form {
+  border: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: #f2da97;
+  max-width: 700px;
+  margin: 5px auto; 
+  padding: 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
+}
+
+
+textarea{
+
+  resize:none;
+  margin-left: 10px;
+  width: 450px;
+  height: 125px;
+  padding-right: 3px;
+  padding:7px;
+  border-color: black;
+  border-width: 3px;
+}
+.map{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border:10px solid saddlebrown;
+
+}
+
+
+
+.form-control {
+      text-align: left;
+      margin-bottom: 50px;
+    }
+
+.field_set{
+	border: 4px solid #1B842c; 
+	width: auto;
+}
+
+legend{
+  	font-size: 40px;
+  	color: #e33324;
+    text-align: center;
+    padding: 0.2% 0.4%;
+    width: 50%;
+    scroll-margin-left: 0 34.6%;
+    border: 2px solid #1B842c;
+    border-radius: 5px;
+    font-family:'Jurassic Park', sans-serif;
+    letter-spacing: 0.05em
+
+
+  }
+
+label{
+	margin-left:10px;
+	font-family:'Roboto', sans-serif;;
+	font-size: 15px;
+}
+
+
+.contact-info {
+  display: flex;
+  justify-content: space-between; /* Spaces out Phone, Address, Website */
+  gap: 50px; /* Adjust spacing as needed */
+  text-align: center;
+}
+
+.info-block {
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+.back-to-top {
+  display: inline; /* Hidden by default */
+  position: relative; /* Relative to form */
+  margin: 20px auto 0; /* Center below form */
+  width: 120px;
+  height: 40px;
+  background: #2f2f2f;
+  color: #fff;
+  font-size: 16px;
+  left: 287px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: relative;
+  box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+  background: #ffbf00;
+  color: #2f2f2f;
+}
+
+
+
+/* For tooltip icons GitHub, Facebook*/
+
+ul .wrapper {
+  display: flex ;
+  list-style:none ;
+  justify-content: space-evenly;
+}
+
+
+
+.wrapper .icon {    
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 30px;
+  width: 80px;
+  height: 50px;
+  font-size: 18px;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+ .wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #3a3838;
+  color: #ffffff;
+}
+
+.wrapper .gmail:hover,
+.wrapper .gmail:hover .tooltip,
+.wrapper .gmail:hover .tooltip::before {
+  background: #ac0000;
+  color: #ffffff;
+}
+
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background: #425df1;
+  color: #ffffff;
+}
